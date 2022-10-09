@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "~/": "./",
+    "std/": "https://deno.land/std@0.155.0/",
+    "aleph/": "https://deno.land/x/aleph@1.0.0-beta.19/",
+    "aleph/server": "https://deno.land/x/aleph@1.0.0-beta.19/server/mod.ts",
+    "aleph/dev": "https://deno.land/x/aleph@1.0.0-beta.19/server/dev.ts"
+  },
+  "scopes": {}
+}
