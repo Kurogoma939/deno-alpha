@@ -3,5 +3,7 @@ export const GET = (req: Request) => {
   return Response.json({
     "users_url": `${url.origin}/users`,
     "user_url": `${url.origin}/users/{user}`,
+    "todos_url": `${url.origin}/todos`,
+    "todo_url": `${url.origin}/todos/{todo}`,
   });
 };
